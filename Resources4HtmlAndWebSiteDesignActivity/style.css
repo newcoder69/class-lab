@@ -13,11 +13,17 @@ nav{
     width: 70%;
     float: right;
     margin: 5em 3em 0 0;
+    background-color:black;
+    text-align:center;
+   
+    
 }
 
 body{
+    float: right;
     clear: left;
     background-color: #ccc;
+    
 }
 
 h1{
@@ -48,3 +54,19 @@ img {
 footer{
     text-align: center;
 }
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    flex: 0 0 200px
+}
+
+.main-content{
+    flex-grow: 1;
+    padding: 20px;
+
+
+}
+
